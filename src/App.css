@@ -1,11 +1,18 @@
-.App {
-  text-align: center;
+
+
+.App{
+  background: linear-gradient(90deg, rgba(54,35,77,1) 0%, rgba(149,0,255,1) 48%, rgba(54,35,77,1) 100%);;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background:  linear-gradient(90deg, rgba(54,35,77,1) 0%, rgba(149,0,255,1) 48%, rgba(54,35,77,1) 100%);;;
+  overflow: auto;
 }
+
+html{
+  box-sizing: border-box;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +20,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {

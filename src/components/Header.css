@@ -1,0 +1,82 @@
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(90deg, rgba(54,35,77,1) 0%, rgba(149,0,255,1) 48%, rgba(54,35,77,1) 100%);;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 70px;
+  border: none;
+  outline: 2px solid rgb(245, 72, 72);
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start ;
+}
+
+.headerLogo {
+  position: relative;
+  font-size: 42px;
+    top: 3.5px;
+  color: rgb(245, 72, 72);
+  padding: 0px 0px 0px 40px;
+}
+
+.headerTitle {
+  
+  position: relative;
+  color:rgb(245, 72, 72);
+  font-size: 35px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+    width: 100%;
+    height: 40px;
+    max-width: 500px;
+    background: rgba(252, 252, 252, 0.2);
+    display: flex;
+    border-radius: 60px;
+    align-items: flex-start;
+    margin-top: 1px;
+    margin-left: 450px;
+    padding: 0px 0px 0px 12px;
+    border: none;
+    
+   
+  }
+  
+
+.input {
+    
+    align-items: flex-start;
+    display: flex;
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(212, 203, 203);
+    
+}
+
+.input::placeholder{
+    color: rgb(239, 235, 235);
+}
+
+.form button img{
+    width: 25px;
+}
+
+.form button{
+    background: rgb(245, 72, 72);
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 39px;
+    cursor: pointer;
+    
+    
+}
+
